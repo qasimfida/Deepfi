@@ -1,5 +1,6 @@
 import './App.css'
 import { FaXTwitter } from 'react-icons/fa6'
+import GamesAnimation from './assets/Games Animation.gif'
 
 function App() {
   return (
@@ -7,10 +8,14 @@ function App() {
    
     <div className="min-h-screen w-screen bg-black flex items-center justify-center font-helvetica-neue">
       <div className="w-full min-h-screen flex flex-col items-center justify-center text-center relative">
-        <div className="content mb-[65px]">
-          <h2>DEEPFi</h2>
-          <h2>DEEPFi</h2>
+        <div className="content">
+        <img 
+          src={GamesAnimation} 
+          alt="Games Animation" 
+          className="w-[500px] " 
+        />
         </div>
+        
         <h2 className="text-[#D0D0D0] text-[45px] font-[400] mb-[61px] mt-[0px] tracking-wide">COMING JULY 2025</h2>
         <p className="text-white text-[32px] font-normal mb-[60px] mt-[0px] leading-[30px] max-w-[860px]">
           The first Solana-based site featuring original games that
