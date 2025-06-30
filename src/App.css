@@ -11,6 +11,14 @@
   background-color: transparent;
 }
 
+@media (max-width: 768px) {
+	.content h2 {
+		font-size: 52px;
+	}
+	.content img {
+		width: 180px;
+	}
+}
 
 
 @keyframes animate {
