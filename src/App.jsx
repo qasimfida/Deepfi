@@ -8,12 +8,12 @@ function App() {
    
     <div className="flex items-center justify-center w-screen min-h-screen px-5 bg-black font-helvetica-neue">
       <div className="relative flex flex-col items-center justify-center w-full min-h-screen text-center">
-        <div className="flex items-center content">
+        <div className="flex items-center content max-sm:flex-col">
         <h2 className="font-bold deep-text">DeepFi</h2>
         <img 
           src={GamesAnimation} 
           alt="Games Animation" 
-          className="w-[420px] mt-2" 
+          className="w-[420px] mt-2 max-sm:mt-0 max-sm:w-[200px]" 
         />
         </div>
         
